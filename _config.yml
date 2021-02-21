@@ -1,0 +1,9 @@
+name: Restrições
+
+title: Restrições
+
+description: Aplicação para Android com restrições em vigor em Portugal
+
+keep_files: [CNAME, index.html]
+
+remote_theme: pages-themes/primer
