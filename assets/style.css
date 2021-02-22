@@ -1,0 +1,115 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #666666 !important;
+}
+
+.main {
+  padding-top: 64px;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.logo img {
+  width: 96px;
+  margin-bottom: 16px;
+}
+
+.logo .title {
+  font-size: 36px;
+  color: #666666;
+}
+
+.logo .subtitle {
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 48px;
+}
+
+.logo button {
+  width: 200px;
+  height: 64px;
+  border-radius: 8px;
+  border: 0px;
+  background: #444444;
+  color: #eeeeee;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.logo button:focus {
+  outline: 0;
+}
+
+.logo button:hover {
+  background: #eeeeee;
+  color: #666666;
+}
+
+.hero img {
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.widget {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.widget .title {
+  font-size: 24px;
+  color: #666666;
+  margin-bottom: 16px;
+}
+
+.widget img {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+
+.widget img:first-of-type {
+  padding-right: 16px;
+}
+
+.widget :not(img:first-of-type) {
+  padding-left: 16px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: #666666;
+  border-top: 1px solid #999999;
+}
+
+footer div:nth-child(2) {
+  text-align: right;
+}
+
+footer span {
+  margin-left: 16px;
+}
+
+@media (max-width: 576px) {
+  footer div {
+      text-align: center!important;
+  }
+
+  footer div:nth-child(2) {
+      margin-top: 8px;
+  }
+
+  footer span {
+      margin-left: 8px;
+      margin-right: 8px;
+  }
+}
