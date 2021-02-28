@@ -592,13 +592,22 @@
               "name": "presencial",
               "items": [
                 {
-                  "value": "creches, jardins de infância e pré-escolar"
+                  "value": "creches"
+                },
+                {
+                  "value": "jardins de infância"
+                },
+                {
+                  "value": "pré-escolar"
                 },
                 {
                   "value": "1º e 2º ciclo"
                 },
                 {
-                  "value": "ensino profissional e especial"
+                  "value": "ensino profissional"
+                },
+                {
+                  "value": "ensino especial"
                 }
               ]
             },
