@@ -1,5 +1,5 @@
 {
-  "last_updated": "2021-02-08",
+  "last_updated": "2021-02-28",
   "restrictions": [
     {
       "id": "mask_use",
@@ -103,7 +103,7 @@
         {
           "id": "groceries",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "periods": [
             {
               "period": "week",
@@ -121,7 +121,7 @@
           "sections": [
             {
               "id": "detail",
-              "name": "fecha",
+              "name": "encerra",
               "items": [
                 {
                   "value": "20:00 à semana"
@@ -136,7 +136,7 @@
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
@@ -155,7 +155,7 @@
         {
           "id": "internal_travel",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "periods": [
             {
               "period": "monday",
@@ -171,7 +171,7 @@
           ],
           "sections": [
             {
-              "id": "state",
+              "id": "status",
               "name": "estado",
               "items": [
                 {
@@ -193,7 +193,7 @@
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
@@ -221,7 +221,7 @@
         {
           "id": "restaurants",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "periods": [
             {
               "period": "all"
@@ -254,7 +254,7 @@
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
@@ -282,7 +282,7 @@
         {
           "id": "confinement",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "periods": [
             {
               "period": "all"
@@ -290,11 +290,20 @@
           ],
           "sections": [
             {
+              "id": "status",
+              "name": "estado",
+              "items": [
+                {
+                  "value": "Obrigatório"
+                }
+              ]
+            },
+            {
               "id": "end_date",
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
@@ -322,7 +331,7 @@
         {
           "id": "remote_work",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "periods": [
             {
               "period": "all"
@@ -352,7 +361,7 @@
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
@@ -383,10 +392,10 @@
               "name": "detalhe",
               "items": [
                 {
-                  "value": "distância ≤ 2 metros"
+                  "value": "distância inferior a 2 metros"
                 },
                 {
-                  "value": "idade ≥ 10 anos"
+                  "value": "idade igual ou superior a 10 anos"
                 }
               ]
             },
@@ -423,7 +432,7 @@
         {
           "id": "public_services",
           "start_date": "2021-01-15",
-          "end_date": "2021-03-01",
+          "end_date": "2021-03-16",
           "sections": [
             {
               "id": "regime",
@@ -439,7 +448,7 @@
               "name": "até",
               "items": [
                 {
-                  "value": "1 de Março"
+                  "value": "16 de Março"
                 }
               ]
             },
