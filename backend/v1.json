@@ -2,36 +2,6 @@
   "last_updated": "2021-02-28",
   "restrictions": [
     {
-      "id": "mask_use",
-      "title": "Uso de Máscara",
-      "subtitle": "na via pública",
-      "icon": "<vector xmlns:android=\"http:\/\/schemas.android.com\/apk\/res\/android\" android:width=\"48dp\" android:height=\"48dp\" android:tint=\"?attr\/colorControlNormal\" android:viewportWidth=\"140\" android:viewportHeight=\"140\"><path android:pathData=\"m69.835,36.908c-5.182,0.016 -8.307,0.734 -16.454,3.78 -7.552,2.823 -18.686,5.953 -22.401,6.295 -1.904,0.176 -2.981,0.024 -6.35,-0.891C19.41,44.674 14.765,44.335 11.626,45.143 4.236,47.044 1.587,53.926 5.298,61.579c2.14,4.413 8.537,9.615 17.142,13.941l3.914,1.967 1.235,2.567c0.906,1.884 2.256,3.687 5.074,6.78 11.762,12.91 21.087,19.057 32.062,21.137 1.66,0.315 3.436,0.445 5.276,0.406 1.84,0.039 3.616,-0.092 5.276,-0.406 10.975,-2.079 20.299,-8.227 32.062,-21.137 2.818,-3.093 4.167,-4.896 5.074,-6.78l1.235,-2.567 3.914,-1.967c8.605,-4.325 15.002,-9.528 17.142,-13.941 3.711,-7.653 1.062,-14.535 -6.328,-16.436 -3.14,-0.808 -7.784,-0.469 -13.003,0.949 -3.369,0.915 -4.446,1.067 -6.35,0.891 -3.715,-0.343 -14.849,-3.472 -22.401,-6.295 -8.148,-3.046 -11.273,-3.764 -16.454,-3.78 -0.059,0 -0.107,0.001 -0.165,0.001 -0.058,0 -0.106,-0.001 -0.165,-0.001zM16.033,49.253c2.328,0.026 5.071,0.502 8.102,1.438l2.346,0.725 -0.199,1.471c-0.109,0.809 -0.399,5.401 -0.643,10.203 -0.244,4.802 -0.531,8.73 -0.639,8.728 -0.2,-0.003 -1.527,-0.754 -5.829,-3.301C14.079,65.501 10.065,61.598 8.869,58.498 8.035,56.337 8.047,53.262 8.894,51.983 10.118,50.136 12.631,49.214 16.033,49.253ZM123.967,49.253c3.402,-0.038 5.916,0.883 7.139,2.731 0.847,1.279 0.859,4.353 0.025,6.514 -1.196,3.1 -5.21,7.003 -10.303,10.019 -4.302,2.547 -5.628,3.298 -5.829,3.301 -0.107,0.002 -0.395,-3.925 -0.639,-8.728 -0.244,-4.802 -0.533,-9.394 -0.643,-10.203l-0.199,-1.471 2.346,-0.725c3.031,-0.936 5.774,-1.412 8.102,-1.438z\" android:fillColor=\"#000000\"\/><\/vector>",
-      "widget": {
-        "title": "Máscara",
-        "restricted": {
-          "message": "Obrigatória"
-        },
-        "permitted": {
-          "message": "Não obrigatória"
-        }
-      }
-    },
-    {
-      "id": "confinement",
-      "title": "Recolhimento",
-      "subtitle": "domiciliário",
-      "icon": "<vector android:height=\"48dp\" android:width=\"48dp\" android:tint=\"?attr\/colorControlNormal\" android:viewportHeight=\"28\" android:viewportWidth=\"28\" xmlns:android=\"http:\/\/schemas.android.com\/apk\/res\/android\"><path android:fillColor=\"@android:color\/white\" android:pathData=\"M14.16,10.4l-5,-3.57c-0.7,-0.5 -1.63,-0.5 -2.32,0l-5,3.57C1.31,10.78 1,11.38 1,12.03V20c0,0.55 0.45,1 1,1h4v-6h4v6h4c0.55,0 1,-0.45 1,-1v-7.97C15,11.38 14.69,10.78 14.16,10.4z\"\/><path android:fillColor=\"@android:color\/white\" android:pathData=\"M21.03,3h-9.06C10.88,3 10,3.88 10,4.97l0.09,0.09c0.08,0.05 0.16,0.09 0.24,0.14l5,3.57c0.76,0.54 1.3,1.34 1.54,2.23H19v2h-2v2h2v2h-2v3v1h4.03c1.09,0 1.97,-0.88 1.97,-1.97V4.97C23,3.88 22.12,3 21.03,3zM19,9h-2V7h2V9z\"\/><\/vector>",
-      "widget": {
-        "title": "Confinamento",
-        "restricted": {
-          "message": "Em vigor"
-        },
-        "permitted": {
-          "message": "Terminado"
-        }
-      }
-    },
-    {
       "id": "groceries",
       "title": "Mercearias",
       "subtitle": "e supermercados",
@@ -43,6 +13,21 @@
         },
         "permitted": {
           "message": "Aberto"
+        }
+      }
+    },
+    {
+      "id": "school",
+      "title": "Escolas",
+      "subtitle": "creches e universiades",
+      "icon": "<vector xmlns:android=\"http:\/\/schemas.android.com\/apk\/res\/android\" android:width=\"48dp\" android:height=\"48dp\" android:viewportWidth=\"28\" android:viewportHeight=\"28\" android:tint=\"?attr\/colorControlNormal\" android:autoMirrored=\"true\"><path android:fillColor=\"@android:color\/white\" android:pathData=\"M21,5c-1.11,-0.35 -2.33,-0.5 -3.5,-0.5c-1.95,0 -4.05,0.4 -5.5,1.5c-1.45,-1.1 -3.55,-1.5 -5.5,-1.5S2.45,4.9 1,6v14.65c0,0.25 0.25,0.5 0.5,0.5c0.1,0 0.15,-0.05 0.25,-0.05C3.1,20.45 5.05,20 6.5,20c1.95,0 4.05,0.4 5.5,1.5c1.35,-0.85 3.8,-1.5 5.5,-1.5c1.65,0 3.35,0.3 4.75,1.05c0.1,0.05 0.15,0.05 0.25,0.05c0.25,0 0.5,-0.25 0.5,-0.5V6C22.4,5.55 21.75,5.25 21,5zM21,18.5c-1.1,-0.35 -2.3,-0.5 -3.5,-0.5c-1.7,0 -4.15,0.65 -5.5,1.5V8c1.35,-0.85 3.8,-1.5 5.5,-1.5c1.2,0 2.4,0.15 3.5,0.5V18.5z\"\/><path android:fillColor=\"@android:color\/white\" android:pathData=\"M17.5,10.5c0.88,0 1.73,0.09 2.5,0.26V9.24C19.21,9.09 18.36,9 17.5,9c-1.7,0 -3.24,0.29 -4.5,0.83v1.66C14.13,10.85 15.7,10.5 17.5,10.5z\"\/><path android:fillColor=\"@android:color\/white\" android:pathData=\"M13,12.49v1.66c1.13,-0.64 2.7,-0.99 4.5,-0.99c0.88,0 1.73,0.09 2.5,0.26V11.9c-0.79,-0.15 -1.64,-0.24 -2.5,-0.24C15.8,11.66 14.26,11.96 13,12.49z\"\/><path android:fillColor=\"@android:color\/white\" android:pathData=\"M17.5,14.33c-1.7,0 -3.24,0.29 -4.5,0.83v1.66c1.13,-0.64 2.7,-0.99 4.5,-0.99c0.88,0 1.73,0.09 2.5,0.26v-1.52C19.21,14.41 18.36,14.33 17.5,14.33z\"\/><\/vector>",
+      "widget": {
+        "title": "Escolas",
+        "restricted": {
+          "message": "Fechadas"
+        },
+        "permitted": {
+          "message": "Abertas"
         }
       }
     },
@@ -73,6 +58,36 @@
         },
         "permitted": {
           "message": "Aberto"
+        }
+      }
+    },
+    {
+      "id": "mask_use",
+      "title": "Uso de Máscara",
+      "subtitle": "na via pública",
+      "icon": "<vector xmlns:android=\"http:\/\/schemas.android.com\/apk\/res\/android\" android:width=\"48dp\" android:height=\"48dp\" android:tint=\"?attr\/colorControlNormal\" android:viewportWidth=\"140\" android:viewportHeight=\"140\"><path android:pathData=\"m69.835,36.908c-5.182,0.016 -8.307,0.734 -16.454,3.78 -7.552,2.823 -18.686,5.953 -22.401,6.295 -1.904,0.176 -2.981,0.024 -6.35,-0.891C19.41,44.674 14.765,44.335 11.626,45.143 4.236,47.044 1.587,53.926 5.298,61.579c2.14,4.413 8.537,9.615 17.142,13.941l3.914,1.967 1.235,2.567c0.906,1.884 2.256,3.687 5.074,6.78 11.762,12.91 21.087,19.057 32.062,21.137 1.66,0.315 3.436,0.445 5.276,0.406 1.84,0.039 3.616,-0.092 5.276,-0.406 10.975,-2.079 20.299,-8.227 32.062,-21.137 2.818,-3.093 4.167,-4.896 5.074,-6.78l1.235,-2.567 3.914,-1.967c8.605,-4.325 15.002,-9.528 17.142,-13.941 3.711,-7.653 1.062,-14.535 -6.328,-16.436 -3.14,-0.808 -7.784,-0.469 -13.003,0.949 -3.369,0.915 -4.446,1.067 -6.35,0.891 -3.715,-0.343 -14.849,-3.472 -22.401,-6.295 -8.148,-3.046 -11.273,-3.764 -16.454,-3.78 -0.059,0 -0.107,0.001 -0.165,0.001 -0.058,0 -0.106,-0.001 -0.165,-0.001zM16.033,49.253c2.328,0.026 5.071,0.502 8.102,1.438l2.346,0.725 -0.199,1.471c-0.109,0.809 -0.399,5.401 -0.643,10.203 -0.244,4.802 -0.531,8.73 -0.639,8.728 -0.2,-0.003 -1.527,-0.754 -5.829,-3.301C14.079,65.501 10.065,61.598 8.869,58.498 8.035,56.337 8.047,53.262 8.894,51.983 10.118,50.136 12.631,49.214 16.033,49.253ZM123.967,49.253c3.402,-0.038 5.916,0.883 7.139,2.731 0.847,1.279 0.859,4.353 0.025,6.514 -1.196,3.1 -5.21,7.003 -10.303,10.019 -4.302,2.547 -5.628,3.298 -5.829,3.301 -0.107,0.002 -0.395,-3.925 -0.639,-8.728 -0.244,-4.802 -0.533,-9.394 -0.643,-10.203l-0.199,-1.471 2.346,-0.725c3.031,-0.936 5.774,-1.412 8.102,-1.438z\" android:fillColor=\"#000000\"\/><\/vector>",
+      "widget": {
+        "title": "Máscara",
+        "restricted": {
+          "message": "Obrigatória"
+        },
+        "permitted": {
+          "message": "Não obrigatória"
+        }
+      }
+    },
+    {
+      "id": "confinement",
+      "title": "Recolhimento",
+      "subtitle": "domiciliário",
+      "icon": "<vector android:height=\"48dp\" android:width=\"48dp\" android:tint=\"?attr\/colorControlNormal\" android:viewportHeight=\"28\" android:viewportWidth=\"28\" xmlns:android=\"http:\/\/schemas.android.com\/apk\/res\/android\"><path android:fillColor=\"@android:color\/white\" android:pathData=\"M14.16,10.4l-5,-3.57c-0.7,-0.5 -1.63,-0.5 -2.32,0l-5,3.57C1.31,10.78 1,11.38 1,12.03V20c0,0.55 0.45,1 1,1h4v-6h4v6h4c0.55,0 1,-0.45 1,-1v-7.97C15,11.38 14.69,10.78 14.16,10.4z\"\/><path android:fillColor=\"@android:color\/white\" android:pathData=\"M21.03,3h-9.06C10.88,3 10,3.88 10,4.97l0.09,0.09c0.08,0.05 0.16,0.09 0.24,0.14l5,3.57c0.76,0.54 1.3,1.34 1.54,2.23H19v2h-2v2h2v2h-2v3v1h4.03c1.09,0 1.97,-0.88 1.97,-1.97V4.97C23,3.88 22.12,3 21.03,3zM19,9h-2V7h2V9z\"\/><\/vector>",
+      "widget": {
+        "title": "Confinamento",
+        "restricted": {
+          "message": "Em vigor"
+        },
+        "permitted": {
+          "message": "Terminado"
         }
       }
     },
@@ -146,6 +161,56 @@
               "items": [
                 {
                   "value": "Decreto 3-A/2021, Artigo 15",
+                  "link": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/154482983/202102071614/73942015/diplomaExpandido/indice?p_p_state=maximized"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "school",
+          "start_date": "2021-01-15",
+          "end_date": "2021-03-16",
+          "periods": [
+            {
+              "period": "all"
+            }
+          ],
+          "sections": [
+            {
+              "id": "status",
+              "name": "estado",
+              "items": [
+                {
+                  "value": "encerradas"
+                }
+              ]
+            },
+            {
+              "id": "regime",
+              "name": "regime",
+              "items": [
+                {
+                  "value": "ensino à distância",
+                  "link": "https://dre.pt/web/guest/pesquisa/-/search/156546167/details/normal"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "16 de Março"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Decreto 3-A/2021, Artigo 31-A",
                   "link": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/154482983/202102071614/73942015/diplomaExpandido/indice?p_p_state=maximized"
                 }
               ]
@@ -294,7 +359,7 @@
               "name": "estado",
               "items": [
                 {
-                  "value": "Obrigatório"
+                  "value": "obrigatório"
                 }
               ]
             },
@@ -392,10 +457,10 @@
               "name": "detalhe",
               "items": [
                 {
-                  "value": "distância inferior a 2 metros"
+                  "value": "distância de 2 metros ou inferior"
                 },
                 {
-                  "value": "idade igual ou superior a 10 anos"
+                  "value": "idade de 10 anos ou superior"
                 }
               ]
             },
