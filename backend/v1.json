@@ -602,7 +602,7 @@
               "start_time": "18:00"
             },
             {
-              "period": "week",
+              "period": "holiday",
               "end_time": "05:00",
               "start_time": "18:00"
             }
@@ -653,7 +653,16 @@
           "end_date": "2021-03-08",
           "periods": [
             {
-              "period": "all"
+              "period": "week",
+              "start_time": "18:00"
+            },
+            {
+              "period": "weekend",
+              "start_time": "17:00"
+            },
+            {
+              "period": "holiday",
+              "start_time": "17:00"
             }
           ],
           "sections": [
@@ -666,6 +675,9 @@
                 },
                 {
                   "value": "17:00 ao fim de semana e feriados"
+                },
+                {
+                  "value": "22:00 para entrega ao domicílio"
                 }
               ]
             },
@@ -674,10 +686,7 @@
               "name": "detalhe",
               "items": [
                 {
-                  "value": "até às 22:00 para entrega ao domicílio"
-                },
-                {
-                  "value": "proibida venda de bebidas alcoólicas ao postigo"
+                  "value": "proibida venda de bebidas alcoólicas"
                 }
               ]
             },
@@ -758,6 +767,41 @@
                 {
                   "value": "Decreto Regional 14-A/2020/M",
                   "link": "https://dre.pt/web/guest/pesquisa/-/search/147688716/details/normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "public_services",
+          "start_date": "2021-01-15",
+          "end_date": "2021-03-08",
+          "sections": [
+            {
+              "id": "regime",
+              "name": "regime",
+              "items": [
+                {
+                  "value": "presencial entre as 9:30 e as 15:30"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "8 de Março"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Resolução 19/2021, Artigo 15",
+                  "link": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202021/ISerie-007-2021-01-12.pdf"
                 }
               ]
             }
