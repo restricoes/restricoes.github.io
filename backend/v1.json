@@ -135,7 +135,7 @@
           ],
           "sections": [
             {
-              "id": "detail",
+              "id": "closure",
               "name": "encerra",
               "items": [
                 {
@@ -218,20 +218,12 @@
           ]
         },
         {
-          "id": "internal_travel",
+          "id": "confinement",
           "start_date": "2021-01-15",
           "end_date": "2021-03-16",
           "periods": [
             {
-              "period": "monday",
-              "end_time": "05:00"
-            },
-            {
-              "period": "friday",
-              "start_time": "20:00"
-            },
-            {
-              "period": "weekend"
+              "period": "all"
             }
           ],
           "sections": [
@@ -240,16 +232,7 @@
               "name": "estado",
               "items": [
                 {
-                  "value": "proibida"
-                }
-              ]
-            },
-            {
-              "id": "period",
-              "name": "período",
-              "items": [
-                {
-                  "value": "20:00 de sexta às 05:00 de segunda"
+                  "value": "obrigatório"
                 }
               ]
             },
@@ -276,7 +259,7 @@
               "name": "lei",
               "items": [
                 {
-                  "value": "Decreto 3-A/2021, Artigo 4-A",
+                  "value": "Decreto 3-A/2021, Artigo 4",
                   "link": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/154482983/202102071614/73942015/diplomaExpandido/indice?p_p_state=maximized"
                 }
               ]
@@ -345,12 +328,20 @@
           ]
         },
         {
-          "id": "confinement",
+          "id": "internal_travel",
           "start_date": "2021-01-15",
           "end_date": "2021-03-16",
           "periods": [
             {
-              "period": "all"
+              "period": "monday",
+              "end_time": "05:00"
+            },
+            {
+              "period": "friday",
+              "start_time": "20:00"
+            },
+            {
+              "period": "weekend"
             }
           ],
           "sections": [
@@ -359,7 +350,16 @@
               "name": "estado",
               "items": [
                 {
-                  "value": "obrigatório"
+                  "value": "proibida"
+                }
+              ]
+            },
+            {
+              "id": "period",
+              "name": "período",
+              "items": [
+                {
+                  "value": "20:00 de sexta às 05:00 de segunda"
                 }
               ]
             },
@@ -386,7 +386,7 @@
               "name": "lei",
               "items": [
                 {
-                  "value": "Decreto 3-A/2021, Artigo 4",
+                  "value": "Decreto 3-A/2021, Artigo 4-A",
                   "link": "https://dre.pt/web/guest/legislacao-consolidada/-/lc/154482983/202102071614/73942015/diplomaExpandido/indice?p_p_state=maximized"
                 }
               ]
@@ -534,7 +534,235 @@
     {
       "id": "madeira",
       "restrictions": [
-
+        {
+          "id": "groceries",
+          "start_date": "2021-01-13",
+          "end_date": "2021-03-08",
+          "periods": [
+            {
+              "period": "week",
+              "start_time": "18:00"
+            },
+            {
+              "period": "weekend",
+              "start_time": "17:00"
+            },
+            {
+              "period": "holiday",
+              "start_time": "17:00"
+            }
+          ],
+          "sections": [
+            {
+              "id": "detail",
+              "name": "encerra",
+              "items": [
+                {
+                  "value": "18:00 à semana"
+                },
+                {
+                  "value": "17:00 ao fim de semana e feriados"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "8 de Março"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Resolução 19/2021, Artigo 4",
+                  "link": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202021/ISerie-007-2021-01-12.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "confinement",
+          "start_date": "2021-01-13",
+          "end_date": "2021-03-08",
+          "periods": [
+            {
+              "period": "week",
+              "end_time": "05:00",
+              "start_time": "19:00"
+            },
+            {
+              "period": "weekend",
+              "end_time": "05:00",
+              "start_time": "18:00"
+            },
+            {
+              "period": "week",
+              "end_time": "05:00",
+              "start_time": "18:00"
+            }
+          ],
+          "sections": [
+            {
+              "id": "status",
+              "name": "estado",
+              "items": [
+                {
+                  "value": "obrigatório"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "8 de Março"
+                }
+              ]
+            },
+            {
+              "id": "fine",
+              "name": "coimas",
+              "items": [
+                {
+                  "value": "200€ a 1000€"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Resolução 19/2021, Artigo 1 e 2",
+                  "link": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202021/ISerie-007-2021-01-12.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "restaurants",
+          "start_date": "2021-01-13",
+          "end_date": "2021-03-08",
+          "periods": [
+            {
+              "period": "all"
+            }
+          ],
+          "sections": [
+            {
+              "id": "closure",
+              "name": "encerra",
+              "items": [
+                {
+                  "value": "18:00 à semana"
+                },
+                {
+                  "value": "17:00 ao fim de semana e feriados"
+                }
+              ]
+            },
+            {
+              "id": "detail",
+              "name": "detalhe",
+              "items": [
+                {
+                  "value": "até às 22:00 para entrega ao domicílio"
+                },
+                {
+                  "value": "proibida venda de bebidas alcoólicas ao postigo"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "8 de Março"
+                }
+              ]
+            },
+            {
+              "id": "fine",
+              "name": "coimas",
+              "items": [
+                {
+                  "value": "200€ a 1000€"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Resolução 19/2021, Artigo 6",
+                  "link": "https://joram.madeira.gov.pt/joram/1serie/Ano%20de%202021/ISerie-007-2021-01-12.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mask_use",
+          "start_date": "2020-11-04",
+          "end_date": "2021-03-16",
+          "periods": [
+            {
+              "period": "all"
+            }
+          ],
+          "sections": [
+            {
+              "id": "detail",
+              "name": "detalhe",
+              "items": [
+                {
+                  "value": "distância de 2 metros ou inferior"
+                },
+                {
+                  "value": "idade de 6 anos ou superior"
+                }
+              ]
+            },
+            {
+              "id": "end_date",
+              "name": "até",
+              "items": [
+                {
+                  "value": "16 de Março"
+                }
+              ]
+            },
+            {
+              "id": "fine",
+              "name": "coimas",
+              "items": [
+                {
+                  "value": "200€ a 1000€"
+                }
+              ]
+            },
+            {
+              "id": "law",
+              "name": "lei",
+              "items": [
+                {
+                  "value": "Decreto Regional 14-A/2020/M",
+                  "link": "https://dre.pt/web/guest/pesquisa/-/search/147688716/details/normal"
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
