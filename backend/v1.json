@@ -609,11 +609,14 @@
           ],
           "sections": [
             {
-              "id": "status",
-              "name": "estado",
+              "id": "period",
+              "name": "período",
               "items": [
                 {
-                  "value": "obrigatório"
+                  "value": "19:00 às 05:00 à semana"
+                },
+                {
+                  "value": "18:00 às 05:00 ao fim de semana e feriados"
                 }
               ]
             },
